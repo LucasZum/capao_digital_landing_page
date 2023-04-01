@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    max-width: 1920px;
+    margin: auto;
+}
+.container{
+    background-color: #f3f3f3;
+    min-height: 75vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.title h1, .title h2{
+    font-family:monospace;
+    font-size: 5rem;
+    line-height: 70px;
+    color: #181818;
+    text-align: center;
+}
+.title h2{
+    font-size: 70px;
+}
+.title p{
+    font-family: monospace;
+    font-size: 30px;
+    color: #181818;
+}
+
+.description{
+    max-width: 60%;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 19px;
+    color: #383838;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.buttons-container{
+    display: flex;
+}
+.buttons-container button{
+    margin: 0 20px;
+}
+
+
+/*
+ABOUT SECTION
+*/
+
+.about-container{
+    background-color: #181818;
+    justify-content: space-between;
+    padding: 80px 200px;
+    flex-direction:row-reverse;
+    align-items: flex-start;
+    min-height: auto !important;
+    flex-wrap: wrap;
+}
+
+
+
+.about-content{
+    flex-basis: 50%;
+}
+.about-description{
+    font-size: 19px;
+    color: rgb(243, 243, 243);
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+}
+.about-title{
+    justify-content: start;
+    align-items: flex-start;
+    
+}
+.about-title h2, .about-title p{
+    color: rgb(243, 243, 243);
+}
+.about-image{
+    flex-basis: 30%;
+}
+.about-image img{
+    width: calc(100% + 30px);
+    height: auto;
+    border-radius: 8px;
+    transition: 300ms;
+    box-shadow: 15px 15px 30px #252525,
+    -15px -15px 30px #000000;
+}
+.about-image img:hover{
+
+    box-shadow: 15px 15px 45px #252525,
+    -15px -15px 35px #000000;
+}
+
+
+.teacher-container .about-description{
+    color: #181818;
+}
+.teacher-container{
+    flex-direction: row;
+    background-color: #f3f3f3;
+}
+.teacher-container .about-title h2, .teacher-container .about-title p{
+    color:#181818;
+}
+.teacher-title h2{
+    text-align: left;
+    font-size: 65px;
+}
+.teacher-image img{
+    max-width: calc(100% + 70px);
+    box-shadow: 15px 15px 30px #bebebe,
+    -15px -15px 30px #ffffff !important;
+}
+.teacher-image img{
+    box-shadow: 15px 15px 35px #bebebe,
+    -15px -15px 35px #ffffff !important;
+}
+.galery-container{
+    padding: 50px 200px;
+    justify-content: start;
+    background-color: #181818;
+}
+.galery-container .title h2,
+.galery-container .title p{
+    color: #f3f3f3;
+}
+
+.galery-container p{
+    color: white;
+}
+.galery-container .description{
+    max-width: 80%;
+}
+footer {
+    background-color: #181818;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
